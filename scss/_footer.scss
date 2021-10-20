@@ -1,0 +1,20 @@
+$bg_image: linear-gradient(to right, #001233, #0353a4, #023e7d);
+
+.footer {
+  padding: 0.5rem 0;
+  background-image: $bg_image;
+  box-shadow: 2px 2px 3px #0466c8;
+  display: flex;
+  justify-content: space-between;
+  a {
+    text-transform: capitalize;
+    font-size: 2rem;
+    color: white;
+  }
+  &__logo {
+    align-items: center;
+  }
+  &__sociales {
+    justify-content: right;
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "coder_house",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile_sass": "sass --watch scss:css"
+  },
+  "author": "aballay_mariana",
+  "license": "ISC"
+}

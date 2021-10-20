@@ -1,0 +1,60 @@
+$text-shadow: 4px 4px 9px #b4602b;
+$font2: 2rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  background-image: linear-gradient(to right, #001845, #001233, #33415c);
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  max-width: 1100px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@mixin titulos($size) {
+  font-family: "Stick No Bills", sans-serif !important;
+  font-size: $size;
+  text-shadow: $text-shadow;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 20px;
+}
+h1 {
+  @include titulos(4rem);
+  padding-top: 80px;
+}
+h2 {
+  @include titulos(3.5rem);
+}
+h3 {
+  font-size: $font2;
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
+h4 {
+  padding-top: 10px;
+  font-size: $font2;
+  text-shadow: #ee9b00;
+}
+legend {
+  font-size: $font2;
+}

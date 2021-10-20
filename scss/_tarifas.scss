@@ -1,0 +1,14 @@
+@mixin tamaños($w, $h) {
+  width: $w;
+  height: $h;
+  margin: 20px;
+}
+.tamaño {
+  @include tamaños(400px, 450px);
+}
+
+.table {
+  font-size: 1.5em;
+  color: white;
+  border: 1px;
+}

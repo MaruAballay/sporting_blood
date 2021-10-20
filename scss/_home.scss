@@ -1,0 +1,115 @@
+$text-shadow: 0.1em 0.1em 0.2em black;
+@mixin secciones {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.links {
+  font-size: 1.6em;
+  color: #fca311;
+}
+.links:hover {
+  color: #e4ad56;
+}
+/*section 1*/
+#section1 {
+  @include secciones;
+}
+.textoencima1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*section2*/
+.clase {
+  color: white;
+  background-color: black !important;
+  font-size: 2.25rem;
+  text-align: center;
+
+  &__item {
+    position: relative;
+    display: block;
+    opacity: 1;
+  }
+  &__item:hover {
+    background-color: rgba(255, 200, 0, 0.9);
+    filter: saturate(180%);
+  }
+  &__hover:hover {
+    opacity: 1;
+  }
+  &__titulo:hover {
+    text-shadow: $text-shadow;
+  }
+  &__subtitulo {
+    margin-bottom: 10px;
+  }
+  &__subtitulo:hover {
+    text-shadow: $text-shadow;
+  }
+}
+/*section 3*/
+#section3 {
+  @include secciones;
+}
+.imgsec {
+  filter: brightness(50%);
+}
+.textoencima {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*configuracion del iframe*/
+
+.iframed {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+  &__2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    border: 0;
+  }
+}
+@media (min-width: 320px) {
+  .iframed {
+    width: 300px;
+    height: 250px;
+  }
+}
+
+/* CSS pantalla 768px o superior */
+@media (min-width: 768px) {
+  .iframed {
+    width: 500px;
+    height: 350px;
+  }
+}
+/*cards*/
+.card {
+  padding: 2px;
+  margin-bottom: 20px;
+  &__body {
+    justify-content: center;
+  }
+  &__title {
+    font-size: 2rem;
+    margin-top: 10px;
+    text-shadow: $text-shadow;
+  }
+  &__text {
+    color: #b4602b;
+    font-size: 1.7rem;
+  }
+  &__link {
+    margin-right: 10px;
+  }
+}

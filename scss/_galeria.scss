@@ -1,0 +1,23 @@
+/* galería de transformaciones*/
+
+.galeria {
+  color: #ae2012;
+  border-radius: 1rem;
+}
+
+.galeria:hover {
+  box-shadow: 2px 8px 16px 2px #14213d;
+  color: #fca311;
+}
+
+.card {
+  text-align: center;
+  color: #14213d;
+  &__body {
+    @extend.card;
+    font-size: 1.5rem;
+  }
+}
+.btn {
+  font-size: 1.6rem;
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="formulario de consulta para asociarse al gimnasio o realizar alguna otra consulta">
+    <meta name="keywords" content="SOCIO, CONSULTA, ASOCIARSE, PRECIO, HORARIOS, FORMULARIO, CONTACTO">
+   
+    <title>Sporting Blood - Asociate</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="../img/logo.png" alt="logo" width="80" height="75"
+        /></a>
+        <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="../index.html">INICIO</a>
+            <a class="nav-item nav-link active" href="#">ASOCIATE</a>
+            <a class="nav-item nav-link" href="clases.html">CLASES</a>
+            <a class="nav-item nav-link" href="instalaciones.html"
+              >INSTALACIONES</a
+            >
+            <a class="nav-item nav-link" href="cambios.html">TRANSFORMACIONES</a>
+          </div>
+        </div>
+      </div>
+      </nav>
+    </header>
+    <main>
+      <section class="form-section">
+<div class="container">
+                  <form action="" class="form" method="post">
+                    <div class="form__header">
+                      <legend class="text-center">¿Querés asociarte? ¡Contactanos!</legend>
+                  </div>
+                      <div class="form__group">
+                          <div class="col-md-12">
+                              <input name="nombre" type="text" placeholder="Nombre" class="form-control">
+                          </div>
+                      </div>
+      
+                      <div class="form__group">
+                          <div class="col-md-12">
+                              <input name="apellido" type="text" placeholder="Apellido" class="form-control">
+                          </div>
+                      </div>
+      
+                      <div class="form__group">
+                          <div class="col-md-12">
+                              <input name="email" type="text" placeholder="Email" class="form-control">
+                          </div>
+                      </div>
+                      
+                      <div class="form__group">
+                          <div class="col-md-12">
+                              <textarea class="form__control" name="mensaje"
+                                  placeholder="Dejanos tu consulta acá, te vamos a contestar lo antes posible!"
+                                  rows="7"></textarea>
+                          </div>
+                      </div>
+      
+                  <div class="row">
+                          <div class="col-12">
+                              <p class="text-center lead"><strong>Por favor escoge cuál de estas clases es de tu preferencia</strong></p>
+                          </div>
+      
+                          <div class="col-12">
+                          <label> <input type="checkbox" value="musculacion" name="musculacion">Máquinas y pesas</label>
+                          </div>
+                          <div class="col-12">
+                          <label> <input type="checkbox" value="boxeo" name="boxeo">Boxeo</label>
+                          </div>
+                          <div class="col-12">
+                          <label> <input type="checkbox" value="zumba" name="zumba">Zumba</label>
+                          </div>
+                          <div class="col-12">
+                          <label> <input type="checkbox" value="crossfit" name="crossfit">CrossFit</label>
+                          </div>
+      
+                      </div>
+                      <div class="form__footer">
+                        <div class="col-md-12 text-center">
+    
+                            <button type="submit" class="btn btn-dark btn-lg">¡Enviar!</button>
+                        </div>
+                    </div>
+                  </div>
+
+                  </form>
+                </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="row">
+        <div class="col footer__logo">
+          <img src="../img/logo.png" alt="logo" width="80" height="80" />
+        </div>
+
+        <div class="col footer__sociales">
+          <a href="http://www.facebook.com"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+          <a href="http://www.instagram.com"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"
+  ></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

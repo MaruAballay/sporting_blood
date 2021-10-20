@@ -1,0 +1,30 @@
+$bg_image: linear-gradient(to right, #001233, #0353a4, #023e7d);
+nav {
+  background-image: $bg_image !important;
+  box-shadow: 2px 2px 3px #0466c8;
+}
+
+header {
+  margin-bottom: 60px;
+}
+.navbar {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+  font-size: 1.7rem;
+}
+.nav-item {
+  margin-right: 1rem;
+}
+.nav-link:hover {
+  opacity: 0.75;
+  font-style: italic;
+  color: #5c677d;
+}
+.nav-link {
+  color: white;
+  text-transform: capitalize;
+  font-weight: 600;
+}
