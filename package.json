@@ -7,5 +7,9 @@
     "compile_sass": "sass --watch scss:css"
   },
   "author": "aballay_mariana",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.15"
+  }
 }

@@ -22,6 +22,7 @@ $text-shadow: 0.1em 0.1em 0.2em black;
   transform: translate(-50%, -50%);
 }
 /*section2*/
+
 .clase {
   color: white;
   background-color: black !important;
@@ -42,6 +43,9 @@ $text-shadow: 0.1em 0.1em 0.2em black;
   }
   &__titulo:hover {
     text-shadow: $text-shadow;
+  }
+  &__titulo {
+    margin-top: 10px;
   }
   &__subtitulo {
     margin-bottom: 10px;
